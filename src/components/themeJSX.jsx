@@ -11,6 +11,7 @@ const theme = Object.freeze({
 
     primaryBlue: "#3470ff",
     darkBlue: "#0b44cd",
+    darkBlue_2: "#00008b",
     secondaryBlue_1: "#ecf2ff",
     secondaryBlue_2: "#d7e3ff",
     secondaryBlue_3: "#9ebbff",

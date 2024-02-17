@@ -5,7 +5,7 @@ export const StyledHeader = styled.header`
   position: fixed;
   width: 100%;
   background-color: ${theme.colors.translucentBlue_5};
-  color: ${theme.colors.uaYellow};
+  color: ${theme.colors.secondaryOrangeRed};
 `;
 
 export const Container = styled.div`
@@ -36,4 +36,12 @@ export const Logo = styled.a`
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 0.1em;
+`;
+
+export const Car = styled.span`
+  color: ${theme.colors.darkBlue_2};
+`;
+
+export const Uaflag = styled.span`
+  color: ${theme.colors.uaYellow};
 `;
