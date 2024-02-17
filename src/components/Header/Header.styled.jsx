@@ -4,7 +4,7 @@ import theme from "components/themeJSX";
 export const StyledHeader = styled.header`
   position: fixed;
   width: 100%;
-  background-color: ${theme.colors.secondaryBlue_4};
+  background-color: ${theme.colors.translucentBlue_5};
   color: ${theme.colors.uaYellow};
 `;
 
@@ -30,7 +30,7 @@ export const Container = styled.div`
   }
 `;
 
-export const Logo = styled.p`
+export const Logo = styled.a`
   display: flex;
   align-items: center;
   font-size: 24px;

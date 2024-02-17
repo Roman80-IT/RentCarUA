@@ -6,12 +6,12 @@ export const StyledMenu = styled.nav`
   column-gap: 130px;
   margin: 0 auto;
 
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 600;
 
   color: ${theme.colors.lightYellow};
   a {
-    padding: 28px 0;
+    padding: 12px 0;
     transition: 0.35s;
 
     &:hover {

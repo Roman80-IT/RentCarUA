@@ -4,8 +4,9 @@ const theme = Object.freeze({
 
     primaryBlack: "#121417",
     primaryRgbBlack: "rgb(18, 20, 23)",
-    translucentRgbBlack: "rgb(18, 20, 23, 0.5)",
-    translucentRgbBlack_2: "rgb(18, 20, 23, 0.2)",
+    translucentBlack_2: "rgb(18, 20, 23, 0.2)",
+    translucentBlack_5: "rgb(18, 20, 23, 0.5)",
+    translucentBlack_8: "rgb(18, 20, 23, 0.8)",
     secondaryGray: "#8a8a89",
 
     primaryBlue: "#3470ff",
@@ -14,8 +15,11 @@ const theme = Object.freeze({
     secondaryBlue_2: "#d7e3ff",
     secondaryBlue_3: "#9ebbff",
     secondaryBlue_4: "#8eabef",
+    translucentBlue: "rgb(0, 0, 185, 0.5)",
+    translucentBlue_5: "rgb(52, 112, 255, 0.5)",
 
     secondaryOrange: "#ff8d60",
+    secondaryOrangeRed: "#ff4500",
     lightYellow: "#ffffcc",
     uaYellow: "#ffd700",
   },
