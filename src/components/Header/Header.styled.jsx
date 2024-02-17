@@ -11,17 +11,19 @@ export const StyledHeader = styled.header`
 export const Container = styled.div`
   display: flex;
   justify-content: space-between;
+
+  gap: 60px;
   width: 100%;
 
   @media screen and (min-width: 320px) {
     width: 320px;
-    padding: 0 12px;
+    padding: 0 10px;
     margin: 0 auto;
   }
 
   @media screen and (min-width: 768px) {
     width: 768px;
-    padding: 0 22px;
+    padding: 0 12px;
   }
 
   @media screen and (min-width: 1440px) {
@@ -33,6 +35,7 @@ export const Container = styled.div`
 export const Logo = styled.a`
   display: flex;
   align-items: center;
+
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -40,6 +43,7 @@ export const Logo = styled.a`
 
 export const Car = styled.span`
   color: ${theme.colors.darkBlue_2};
+  // font-weight: 700;
 `;
 
 export const Uaflag = styled.span`

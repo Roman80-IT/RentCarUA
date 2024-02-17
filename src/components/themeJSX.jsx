@@ -11,7 +11,7 @@ const theme = Object.freeze({
 
     primaryBlue: "#3470ff",
     darkBlue: "#0b44cd",
-    darkBlue_2: "#00008b",
+    darkBlue_2: "#00006f",
     secondaryBlue_1: "#ecf2ff",
     secondaryBlue_2: "#d7e3ff",
     secondaryBlue_3: "#9ebbff",
@@ -32,10 +32,10 @@ const theme = Object.freeze({
   //   XL: "28px",
   // },
 
-  // animation: {
-  //   duration: "0.3s",
-  //   cubicBezier: "0.25s cubic-bezier(0.7, 0.98, 0.86, 0.98)",
-  // },
+  animation: {
+    duration: "0.3s",
+    cubicBezier: "0.25s cubic-bezier(0.7, 0.98, 0.86, 0.98)",
+  },
 });
 
 export default theme;

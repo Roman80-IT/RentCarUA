@@ -64,6 +64,9 @@ export const Button = styled.a`
   border-radius: 10px;
   background: ${theme.colors.translucentBlack_5};
 
+  transition: background-color ${theme.animation.duration}
+    ${theme.animation.cubicBezier},
+
   &:hover,
   &:focus {
     color: ${theme.colors.secondaryOrangeRed};
